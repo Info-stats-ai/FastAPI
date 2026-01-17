@@ -1,0 +1,37 @@
+asyn
+ASGI - starlette
+uvicorn - web server
+# path- params
+- localhst:8000/view/3
+- here 3 is dynamic 
+- this three is called path params
+- if you want to fetch the data of any person or anything
+#Path fuction - it is fast api it self 
+- we can increase the interpretation of the path
+- provide metadata , validation
+- example
+- min length ,
+max length 
+pateint id should not  be more than 100 or -100  etc.
+
+
+### HTTP status code
+- 3 digit not to indicate the client about the request
+- is request was successful or not
+- if errorr happend , if yes what was it
+
+### HTTPExeception is built in exception in fastapi
+- it retruns custom http error responses when
+- something goes wrong in your api
+
+
+### Query parameter 
+- if client wants to see the data in form sorted 
+or ascending or decsending method 
+two things required
+- sorted 
+- order
+- if nothing proviede we use default 
+- it is optional key value pair 
+
+/pateint?city =Delhi&sort_by = age 
